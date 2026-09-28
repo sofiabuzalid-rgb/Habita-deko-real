@@ -1,10 +1,10 @@
 import "./index.css";
-import { MyComposition } from "./Composition";
+import { HabitaDekoReelComposition } from "./HabitaDekoReel";
 
 export const RemotionRoot: React.FC = () => {
   return (
     <>
-      <MyComposition />
+      <HabitaDekoReelComposition />
     </>
   );
 };
