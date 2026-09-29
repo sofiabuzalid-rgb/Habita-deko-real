@@ -47,8 +47,8 @@ const SFX: Sfx[] = [
   { name: "tap · claim", src: "audio-v2/sfx_click-tap.mp3", at: CLOSE_FROM + 16, peak: 0, volume: 0.2 },
 ];
 
-// El rótulo aparece con el drop (tras la primera ráfaga) y se va antes del plano más claro (beat 18).
-const TAGLINE_FROM = beat(4);
+// El rótulo está desde el inicio (como en el reel de referencia) y se va antes del plano más claro (beat 18).
+const TAGLINE_FROM = 0;
 const TAGLINE_TO = beat(18);
 
 export const HabitaDekoReelV5: React.FC = () => {

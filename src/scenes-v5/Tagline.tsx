@@ -24,7 +24,7 @@ export const Tagline: React.FC = () => {
       <AbsoluteFill
         style={{
           background:
-            "radial-gradient(ellipse 46% 7% at 50% 46.5%, rgba(20,13,9,0.32) 0%, rgba(20,13,9,0) 100%)",
+            "radial-gradient(ellipse 60% 9% at 50% 46.5%, rgba(20,13,9,0.32) 0%, rgba(20,13,9,0) 100%)",
           opacity: inMain * out,
         }}
       />
@@ -33,7 +33,7 @@ export const Tagline: React.FC = () => {
           marginTop: -80,
           fontFamily: jost,
           fontWeight: 300,
-          fontSize: 40,
+          fontSize: 60,
           letterSpacing: "0.03em",
           color: "#FBF6EF",
           textShadow: "0 1px 3px rgba(20,13,9,0.35), 0 2px 18px rgba(20,13,9,0.55)",
@@ -45,10 +45,10 @@ export const Tagline: React.FC = () => {
       </div>
       <div
         style={{
-          marginTop: 16,
+          marginTop: 22,
           fontFamily: jost,
           fontWeight: 400,
-          fontSize: 20,
+          fontSize: 28,
           letterSpacing: "0.46em",
           paddingLeft: "0.46em",
           color: "#FBF6EF",
