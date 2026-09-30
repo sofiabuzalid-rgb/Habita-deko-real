@@ -15,6 +15,7 @@ import { HabitaDekoReelV4Composition } from "./HabitaDekoReelV4";
 import { HabitaDekoReelV5Composition } from "./HabitaDekoReelV5";
 import { HabitaDekoCollageReelComposition } from "./HabitaDekoCollageReel";
 import { HabitaDekoInstallationReelComposition } from "./HabitaDekoInstallationReel";
+import { HabitaDekoPlankBuildReelComposition } from "./HabitaDekoPlankBuildReel";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -26,6 +27,7 @@ export const RemotionRoot: React.FC = () => {
       <HabitaDekoReelV5Composition />
       <HabitaDekoCollageReelComposition />
       <HabitaDekoInstallationReelComposition />
+      <HabitaDekoPlankBuildReelComposition />
       <Folder name="HabitaDekoReel-Scenes">
         <Composition
           id="Scene1-Opening"
