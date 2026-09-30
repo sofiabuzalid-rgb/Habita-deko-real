@@ -106,3 +106,10 @@ LUJO A TU ALCANCE.
 4. Buscar y descargar música/SFX libres de derechos.
 5. Construir `HabitaDekoReelV2` completo en Remotion con el branding de Habita Deko, tipografía grande, ritmo dinámico, música y sound design.
 6. Renderizar una preview (mismo método que V1: Chromium headless preinstalado en `/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell` + flag `--ignore-certificate-errors` para el fetch de Google Fonts) y mandarla al usuario antes de iterar más.
+
+## Estado (sesión de sourcing + build)
+
+- Pasos 1–6 completados. Detalle de fuentes, licencias y bloqueos de red en `ASSETS-V2.md`.
+- Composición: `HabitaDekoReelV2` (`src/HabitaDekoReelV2.tsx` + `src/scenes-v2/`), 1080×1920, 30 fps, 420 frames (14s).
+- Edit sincronizado a 124 BPM (1 beat ≈ 14.5 frames): todos los cortes y entradas de texto caen en beat (`beat(n)` en `src/scenes-v2/theme.ts`).
+- Render de preview: `npx remotion render HabitaDekoReelV2 out/HabitaDekoReelV2.mp4 --browser-executable=/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell --chrome-mode=headless-shell --ignore-certificate-errors`

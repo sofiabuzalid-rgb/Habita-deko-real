@@ -9,11 +9,23 @@ import { Scene4bClick } from "./scenes/Scene4bClick";
 import { Scene4cAcoustic } from "./scenes/Scene4cAcoustic";
 import { Scene5Lifestyle } from "./scenes/Scene5Lifestyle";
 import { Scene6Closing } from "./scenes/Scene6Closing";
+import { HabitaDekoReelV2Composition } from "./HabitaDekoReelV2";
+import { HabitaDekoReelV3Composition } from "./HabitaDekoReelV3";
+import { HabitaDekoReelV4Composition } from "./HabitaDekoReelV4";
+import { HabitaDekoReelV5Composition } from "./HabitaDekoReelV5";
+import { HabitaDekoCollageReelComposition } from "./HabitaDekoCollageReel";
+import { HabitaDekoInstallationReelComposition } from "./HabitaDekoInstallationReel";
 
 export const RemotionRoot: React.FC = () => {
   return (
     <>
       <HabitaDekoReelComposition />
+      <HabitaDekoReelV2Composition />
+      <HabitaDekoReelV3Composition />
+      <HabitaDekoReelV4Composition />
+      <HabitaDekoReelV5Composition />
+      <HabitaDekoCollageReelComposition />
+      <HabitaDekoInstallationReelComposition />
       <Folder name="HabitaDekoReel-Scenes">
         <Composition
           id="Scene1-Opening"
